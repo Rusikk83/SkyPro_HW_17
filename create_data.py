@@ -273,3 +273,5 @@ for genre in data["genres"]:
     )
     with db.session.begin():
         db.session.add(d)
+
+
